@@ -24,7 +24,7 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="appDiv">
+            <div>
                 <h1 style={{ marginTop: "20px" }}>Your Quiz</h1>
                 <button
                     type="button"

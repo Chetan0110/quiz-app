@@ -73,7 +73,7 @@ class Question extends Component {
         return (
             <div>
                 <h1 style={{ marginTop: "20px" }}>Your Quiz</h1>
-                <div id='quizDiv'>
+                <div className='quizDiv'>
                     {
                         JSON.stringify(this.state.quizData) !== '{}' ?
                             (

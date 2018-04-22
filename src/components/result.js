@@ -12,7 +12,7 @@ class Result extends Component {
         return (
             <div>
                 <h1 style={{ marginTop: "20px" }}>Result</h1>
-                <div id='quizDiv'>
+                <div className='quizDiv'>
                     <h5 style={{ marginTop: '200px', marginLeft: '20px' }}>
                         {
                             `You have answered ${this.props.totalCurrectAnswer} 
